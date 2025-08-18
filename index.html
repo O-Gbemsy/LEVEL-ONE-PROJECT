@@ -10,34 +10,35 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg position-absolute z-3 w-100 bg-transparent pt-3 ps-4">
-    <div class="container-fluid">
-      <img src="./University Website Design - EXCEL/6.png" alt="" width="15%" class="ms-5 mt-3">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
-          <div class="navbar-nav text-white fs-6">
-            <a class="nav-link after ms-lg-4 text-white" href="./index.html">HOME</a>
-            <a class="nav-link after ms-lg-4 text-white" href="./about.html">ABOUT</a>
-            <a class="nav-link after ms-lg-4 text-white" href="./course.html">COURSE</a>
-            <a class="nav-link after ms-lg-4 text-white" href="./blog.html">BLOG</a>
-            <a class="nav-link after ms-lg-4 me-lg-5 text-white" href="./contact.html">CONTACT</a>
-          </div>
+<nav class="navbar navbar-expand-lg navbar-dark position-absolute z-3 w-100 bg-transparent pt-3 ps-4">
+  <div class="container-fluid">
+    <img src="./University Website Design - EXCEL/6.png" alt="Logo" class="logo">
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-white" tabindex="-1" id="offcanvasNavbar">
+      <div class="offcanvas-header bg-primary">
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="navbar-nav fs-6">
+          <a class="nav-link after ms-lg-4 text-white" href="./index.html">HOME</a>
+          <a class="nav-link after ms-lg-4 text-white" href="./about.html">ABOUT</a>
+          <a class="nav-link after ms-lg-4 text-white" href="./course.html">COURSE</a>
+          <a class="nav-link after ms-lg-4 text-white" href="./blog.html">BLOG</a>
+          <a class="nav-link after ms-lg-4 me-lg-5 text-white" href="./contact.html">CONTACT</a>
         </div>
       </div>
-  </nav>
-
-
-  <!-- Hero Section with <img> + overlay + text -->
+    </div>
+  </div>
+</nav>
   <div class="image-hero mb-5">
     <img src="/University Website Design - EXCEL/imgi_10_ourback.jpg" alt="School" width="100%">
     <div class="overlay"></div>
     <div class="text-content mt-5" id="text-box">
       <h1 class="fw-bold" style="font-family: Arial, Helvetica, sans-serif;" id="text">ELISAAC Model School</h1>
-      <p style="font-size: 1rem;">A School Where GOD Himself Teaches The Students and Pupils Through the Teachers <br>
+      <p class="hero-word">A School Where GOD Himself Teaches The Students and Pupils Through the Teachers <br>
         Oh Taste And See That The Lord Is Good Psalm 34 vs 8</p>
       <a href="" class="btn text-white rounded-0" id="hover">Visit Us To Know More</a>
     </div>
@@ -50,7 +51,7 @@
   <div class="pt-5 container d-md-flex mb-5 gap-md-3 justify-content-md-center">
     <div class="col-md-3 col-sm-12 rounded-4 pb-4" style="background-color: #E7F9FF;" id="#card">
       <h4 class="text-center pt-4 fw-bold">DayCare-Nursery</h4>
-      <p style="color: #777777;" class="text-center pt-3">Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit.
+      <p style="color: #777777;" class="courses-text text-center pt-3">Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit.
         Culpa quia numquam <br> itaque placeat quas aspernatur.</p>
       <br>
     </div>
@@ -58,13 +59,13 @@
     <br>
     <div class="col-md-3 col-sm-12 rounded-4 pb-4" style="background-color: #E7F9FF;" id="#card">
       <h4 class="text-center pt-4 fw-bold">Primary</h4>
-      <p style="color: #777777;" class="text-center pt-3">Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit.
+      <p style="color: #777777;" class="courses-text text-center pt-3">Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit.
         Culpa quia numquam <br> itaque placeat quas aspernatur.</p>
     </div>
     <br>
     <div class="col-md-3 col-sm-12 rounded-4 pb-4" style="background-color: #E7F9FF;" id="#card">
       <h4 class="text-center pt-4 fw-bold">Secondary</h4>
-      <p style="color: #777777;" class="text-center pt-3">Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit.
+      <p style="color: #777777;" class="text-center pt-3 courses-text">Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit.
         Culpa quia numquam <br> itaque placeat quas aspernatur.</p>
     </div>
     <br>
@@ -102,21 +103,21 @@
   </div>
   <div class="pt-5 container d-md-flex d-sm-block px-5 justify-content-center" id="row">
     <div class="pe-md-4 pb-4" id="media">
-      <img src="./University Website Design - EXCEL/5.jpg" alt="" class="rounded-3 img-fluid">
+      <img src="./University Website Design - EXCEL/5.jpg" alt="" class="rounded-3 img-fluid col-sm-8">
       <h3 class="fw-bold mt-3" id="change">World Class Library</h3>
-      <p style="color: #777777; font-weight: 470;">Lorem ispum dolor sit amet consectetur <br> adipisicing elit.
+      <p style="color: #777777; font-weight: 470;" class="courses-text">Lorem ispum dolor sit amet consectetur <br> adipisicing elit.
         Cupiditate,error ispum odit totam <br> dicta corrupti.</p>
     </div>
     <div class="pe-md-4 pb-4" id="media">
       <img src="./University Website Design - EXCEL/4.jpg" alt="" class="rounded-3 img-fluid">
       <h3 class="fw-bold mt-3" id="change">Largest Play Ground</h3>
-      <p style="color: #777777; font-weight: 470;">Lorem ispum dolor sit amet consectetur <br> adipisicing elit.
+      <p style="color: #777777; font-weight: 470;" class="courses-text">Lorem ispum dolor sit amet consectetur <br> adipisicing elit.
         Cupiditate,error ispum odit totam <br> dicta corrupti.</p>
     </div>
     <div class="pb-4" id="media">
       <img src="./University Website Design - EXCEL/3.jpg" alt="" class="rounded-3 img-fluid">
       <h3 class="fw-bold mt-3" id="change">Tasty and Healthy Food</h3>
-      <p style="color: #777777; font-weight: 470;">Lorem ispum dolor sit amet consectetur <br> adipisicing elit.
+      <p style="color: #777777; font-weight: 470;" class="courses-text">Lorem ispum dolor sit amet consectetur <br> adipisicing elit.
         Cupiditate,error ispum odit totam <br> dicta corrupti.</p>
     </div>
   </div>
@@ -129,7 +130,7 @@
       <img src="./University Website Design - EXCEL/2.jpg" alt="" class="rounded-5 ms-4 mt-4"
         style="border-radius: 300%; width: 12%; height: 100%;">
       <span>
-        <p class="ms-4 mt-4" style="color: #777777; font-size: 1rem; font-weight: 490;">Lorem ipsum dolor sit amet
+        <p class="courses-text ms-4 mt-4" style="color: #777777; font-size: 1rem; font-weight: 490;">Lorem ipsum dolor sit amet
           consectetur adipisicing elit. <br> Neque
           explicabo alias temporibus, aliquam tenetur odio <br> aspernatur ducimus obcaecati, </p>
         <h5 class="mb-1 ms-4">Christine Berley</h5>
@@ -195,26 +196,14 @@
       <div class="overlay position-absolute top-0 start-0 w-100 h-100 rounded-3 pt-5"
         style="background-color: rgba(0, 0, 0, 0.7); max-width: 1200px; max-height: 370px; margin-top: 24px;">
         <span class="mt-5 pt-5 mb-5 text-center" id="text-box">
-          <h1 class="text-white mt-5" style="font-weight: 700;">Enroll For Our Various Online Courses <br> Anywhere From
-            The World</h1>
-          <span class="align-items-center ms-5 ps-5">
-            <span class="ms-5 ps-5">
-              <span class="ms-5 ps-5">
-                <span class="ms-5 ps-5">
-                  <span class="ms-5 ps-5">
-                    <a href="" class="btn text-white rounded-0 ms-5" id="hover">Contact Us</a>
-                  </span>
-                </span>
-              </span>
-            </span>
-          </span>
-        </span>
+          <h1 class="text-white mt-5" style="font-weight: 700;">Enroll For Our Various Online Courses <br> Anywhere From The World</h1>
       </div>
     </div>
   </div>
   <div class="mt-5 pt-5 text-center">
     <h6 class="mt-5" style="font-weight: 700;">About Us</h6>
-    <p style="color: #777777;">Lorem ipsum dolor, sit amet consectetur adipisicing elier Blanditiis officiis fugiat suscipit praesentium <br> recusandae culpa omnis, expedita aut sapiente doloremque</p>
+    <p style="color: #777777;">Lorem ipsum dolor, sit amet consectetur adipisicing elier Blanditiis officiis fugiat
+      suscipit praesentium <br> recusandae culpa omnis, expedita aut sapiente doloremque</p>
     <img src="./University Website Design - EXCEL/links.png" alt="" width="15%" class="pointer mt-4">
     <p class="mt-3" style="color: #777777;">Made with❤️ by Excel</p>
   </div>
