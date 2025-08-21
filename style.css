@@ -1,5 +1,3 @@
-
-
 .after {
   position: relative;
   cursor: pointer;
@@ -19,6 +17,17 @@
 
 .after:hover::after {
   transform: scaleX(1);
+}
+
+.offcanvas-start {
+  background-color: #3a7bd5;
+  /* soothing blue */
+  color: white;
+}
+
+.offcanvas a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
 }
 
 .image-hero {
@@ -150,75 +159,177 @@
 }
 
 @media (min-width: 100px) {
-  .hero-word{
+  .hero-word {
     font-size: .5rem;
   }
-  #text{
+
+  #text {
     font-size: 1rem;
   }
-}
-@media (min-width: 200px) {
-  .hero-word{
-    font-size: .5rem;
-  }
-  #text{
-    font-size: .9rem;
-    /* margin-left: -20px; */
-  }
-  #hover{
+    #hover {
     padding: 5px 5px;
     font-size: .43rem;
   }
-  .logo{
+
+  .logo {
     width: 30%;
   }
-  .courses-text{
+
+  #change{
     font-size: .8rem;
   }
-}
-@media (min-width: 300px) {
-  .hero-word{
+  #media p{
     font-size: .5rem;
   }
-  #text{
-    font-size: 2rem;
+  .pointer{
+    width: 60%;
   }
-  #hover{
+  #row{
+    padding-left: 20px;
+  }
+  #testimonial-img{
+    width: 20%;
+    height: 7vh;
+    margin-right: -20px;
+  }
+}
+
+@media (min-width: 200px) {
+  .hero-word {
+    font-size: .5rem;
+  }
+
+  #text {
+    font-size: .9rem;
+    /* margin-left: -20px; */
+  }
+
+  #hover {
+    padding: 5px 5px;
+    font-size: .43rem;
+  }
+
+  .logo {
+    width: 30%;
+  }
+
+  #change{
+    font-size: .8rem;
+  }
+  #media p{
+    font-size: .5rem;
+  }
+  .pointer{
+    width: 60%;
+  }
+  #row{
+    padding-left: 20px;
+  }
+  #testimonial-img{
+    width: 20%;
+    height: 7vh;
+    margin-right: -20px;
+  }
+}
+
+@media (min-width: 300px) {
+  .hero-word {
+    font-size: .4rem;
+  }
+
+  #text {
+    font-size: .6rem;
+  }
+
+  #hover {
     padding: 5px 10px;
     font-size: .6rem;
   }
-  .courses-text{
+  .courses-text {
     font-size: 1rem;
   }
-
+  #change{
+    font-size: 1rem;
+  }
+  #media p{
+    font-size: .7rem;
+  }
+  #testimonial-img{
+    width: 15%;
+    height: 7vh;
+  }
+  .pointer{
+    width: 40%;
+  }
 }
+
 @media (min-width: 300px) {
-  .logo{
-    width: 25%;
+  .logo {
+    width: 35%;
+    margin-left: -20px;
+  }
+  #nav{
+    margin-top: 20px;
+  }
+  .pointer{
+    width: 30%;
+  }
+}
+@media (min-width: 400px) {
+  #change{
+    font-size: 1.6rem;
+  }
+  #media p{
+    font-size: 1rem;
+  }
+  #courses {
+    font-size: 1rem;
+  }
+  .pointer{
+    width: 30%;
   }
 }
 @media (min-width: 500px) {
-  .hero-word{
+  .hero-word {
     font-size: .6rem;
   }
-  #text{
+
+  #text {
     font-size: 2rem;
   }
-  #hover{
+
+  #hover {
     padding: 5px 20px;
     font-size: 1rem;
   }
-  .logo{
+
+  .logo {
     width: 25%;
     margin-top: 20px;
     margin-right: 240px;
   }
+#change{
+    font-size: 2rem;
+  }
+  #media p{
+    font-size: 1rem;
+  }
+  #testimonial-img{
+    width: 12%;
+    height: 10vh;
+  }
+  .pointer{
+    width: 30%;
+  }
 }
 @media (min-width: 600px) {
-  .logo{
+  .logo {
     width: 25%;
     margin-top: 20px;
     margin-right: 320px;
+  }
+  .pointer{
+    width: 20%;
   }
 }
 
@@ -226,25 +337,36 @@
   .a-col img {
     margin-top: -800px;
   }
+  .pointer{
+    width: 20%;
+  }
 }
+
 @media (min-width: 840px) {
-  .hero-word{
+  .hero-word {
     font-size: 1rem;
   }
-  #text{
+
+  #text {
     font-size: 3.5rem;
   }
-  #hover{
+
+  #hover {
     padding: 5px 20px;
     font-size: 1rem;
   }
-  .logo{
+
+  .logo {
     width: 15%;
     margin-top: 25px;
     margin-left: 10px;
     margin-right: 600px;
   }
+
   .a-col img {
     margin-top: -0px;
+  }
+  .pointer{
+    width: 20%;
   }
 }

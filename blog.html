@@ -2,24 +2,28 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./bootstrap.css">
   <link rel="stylesheet" href="./blog.css">
-</head> 
+</head>
 
 <body>
-   <nav class="navbar navbar-expand-lg position-absolute z-3 w-100 bg-transparent pt-3 ps-4">
+  <nav class="navbar navbar-expand-lg navbar-dark position-absolute z-3 w-100 bg-transparent pt-3 ps-4">
     <div class="container-fluid">
-      <img src="./University Website Design - EXCEL/6.png" alt="" width="15%" class="ms-md-5 mt-3" id="change">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <img src="./University Website Design - EXCEL/6.png" alt="Logo" class="logo">
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
-          <div class="navbar-nav text-white fs-6">
+      <div class="offcanvas offcanvas-end text-white" tabindex="-1" id="offcanvasNavbar">
+        <div class="offcanvas-header bg-primary">
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body bg-primary">
+          <div class="navbar-nav fs-6">
             <a class="nav-link after ms-lg-4 text-white" href="./index.html">HOME</a>
             <a class="nav-link after ms-lg-4 text-white" href="./about.html">ABOUT</a>
             <a class="nav-link after ms-lg-4 text-white" href="./course.html">COURSE</a>
@@ -28,16 +32,17 @@
           </div>
         </div>
       </div>
-  </nav> 
+    </div>
+  </nav>
 
   <!-- Hero Section with <img> + overlay + text -->
-   <div class="image-hero mb-5">
+  <div class="image-hero mb-5">
     <img src="/University Website Design - EXCEL/imgi_3_background.jpg" alt="School">
     <div class="overlay"></div>
     <div class="text-content mt-5" id="text-box">
       <h1 class="fw-bolder mt-md-5 ms-md-5" style="font-size: 2.5rem;" id="text">OUR COURSES</h1>
     </div>
-  </div> 
+  </div>
 </body>
 
 </html>

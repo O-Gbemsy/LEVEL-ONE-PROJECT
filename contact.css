@@ -69,3 +69,104 @@
       background-color: #4285F4;
       border: 1px solid #4285F4;
     }
+
+    @media (min-width: 100px) {
+  .hero-word{
+    font-size: .5rem;
+  }
+  #text{
+    font-size: 1rem;
+  }
+}
+@media (min-width: 200px) {
+  .hero-word{
+    font-size: .5rem;
+  }
+  #text{
+    font-size: .9rem;
+    /* margin-left: -20px; */
+  }
+  #hover{
+    padding: 5px 5px;
+    font-size: .43rem;
+  }
+  .logo{
+    width: 30%;
+  }
+  .courses-text{
+    font-size: .8rem;
+  }
+}
+@media (min-width: 300px) {
+  .hero-word{
+    width: 120%;
+    font-size: .4rem;
+  }
+  #text{
+    font-size: .76rem;
+  }
+  #hover{
+    padding: 5px 10px;
+    font-size: .6rem;
+  }
+  .courses-text{
+    font-size: 1rem;
+  }
+
+}
+@media (min-width: 300px) {
+  .logo{
+    width: 25%;
+  }
+}
+@media (min-width: 500px) {
+  .hero-word{
+    font-size: .6rem;
+  }
+  #text{
+    font-size: 2rem;
+  }
+  #hover{
+    padding: 5px 20px;
+    font-size: 1rem;
+  }
+  .logo{
+    width: 25%;
+    margin-top: 20px;
+    margin-right: 240px;
+  }
+}
+@media (min-width: 600px) {
+  .logo{
+    width: 25%;
+    margin-top: 20px;
+    margin-right: 320px;
+  }
+}
+
+@media (min-width: 768px) {
+  .a-col img {
+    margin-top: -800px;
+  }
+}
+@media (min-width: 840px) {
+  .hero-word{
+    font-size: 1rem;
+  }
+  #text{
+    font-size: 3.5rem;
+  }
+  #hover{
+    padding: 5px 20px;
+    font-size: 1rem;
+  }
+  .logo{
+    width: 15%;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 600px;
+  }
+  .a-col img {
+    margin-top: -0px;
+  }
+}
